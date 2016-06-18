@@ -1,0 +1,33 @@
+logo {
+	color: $brand-color;
+	font-size: 10em;
+}
+
+.logo__border {
+	border-radius: 50%;
+	border: $brand-color 5px solid;
+	height: 300px;
+	width: 300px;
+	margin: 2*$spacing-unit--large auto;
+	padding-top: $spacing-unit--small;
+	padding-left: 1.2*$spacing-unit--large;
+}
+
+
+
+.logo__head {
+	margin-top: $spacing-unit--small;
+	display: block;
+}
+
+.logo__sub {
+	margin-top: -40px;
+	margin-left: 70px;
+	font-size: 0.15em;
+	display: block;
+	color: $color-white;
+}
+
+html {
+	background-color: #252830;
+}

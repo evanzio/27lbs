@@ -1,0 +1,30 @@
+/*------------------------------------*\
+    #SITE-NAV
+\*------------------------------------*/
+
+.site-nav {
+	margin-left: auto;
+	margin-right: auto;
+	width: 280px;
+	text-align: center;
+
+	a, a:hover, a:active, a:visited {
+		color: $color-white;
+	}
+
+	ul {margin-left: 0;}
+
+	color: $color-white;
+
+	.site-nav__list {
+		display: inline-block;
+	}
+
+	.site-nav__item {
+		display: inline-block;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+}
+
