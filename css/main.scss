@@ -100,11 +100,11 @@
 @import "node_modules/inuit-page/base.page";
 @import "node_modules/inuit-lists/base.lists";
 
-
 /**
  * #OBJECTS
  */
 @import "objects.wrappers.scss";
+@import "node_modules/inuit-buttons/objects.buttons";
 @import "node_modules/inuit-layout/objects.layout";
 @import "node_modules/inuit-media/objects.media";
 @import "node_modules/inuit-list-inline/objects.list-inline";
