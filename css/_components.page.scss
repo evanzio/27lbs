@@ -6,4 +6,15 @@ body { height: 80vh;}
 
 .home { text-align: center; }
 
+.btn { 
+	background-color: initial; 
+	border-color: $color-white;
+}
 
+a .btn { 
+	text-decoration: none; 
+}
+a:hover .btn { 
+	border-color: $color-light-blue; 
+	color: $color-light-blue; 
+} 
