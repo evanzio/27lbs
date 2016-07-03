@@ -11,6 +11,10 @@ logo {
 	margin: 2*$spacing-unit--large auto;
 	padding-top: $spacing-unit--small;
 	padding-left: 1.2*$spacing-unit--large;
+
+	@include media-query(palm) { 
+		margin: 1.2*$spacing-unit--small auto;
+	}
 }
 
 
